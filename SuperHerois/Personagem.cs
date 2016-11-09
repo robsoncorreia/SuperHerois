@@ -34,7 +34,7 @@ namespace SuperHerois
         {
             Random sorteio = new Random();
 
-            int ns = sorteio.Next(0, this.poderes.Count);
+            int ns = sorteio.Next(0, poderes.Count);
 
             if (pe - poderes.ElementAt(ns).Pe > 0)
             {

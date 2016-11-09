@@ -77,6 +77,10 @@ namespace SuperHerois
             doutorOctopus.AdicionarPoder(tentaculos);
             //doutorOctopus.ExibirPoderes();
 
+            //ADCIONANDO PODERES AO PARASITA
+            parasita.AdicionarPoder(forca);
+            parasita.AdicionarPoder(rajadaEnergetica);
+
             //CLONANDO PODERES COM SUPER SKRULL
             //superSkrull.ClonarPoderes(homemAranha);
             //superSkrull.ExibirPoderes();
@@ -87,7 +91,12 @@ namespace SuperHerois
             //superbizarro.Pe -= 61;
             //superbizarro.Atacar(homemAranha);
             Confronto.Confrontar(homemAranha, doutorOctopus);
-            Confronto.Confrontar(doutorOctopus, doutorOctopus);
+            Confronto.Confrontar(fenix, superman);
+            Confronto.Confrontar(doutorOctopus, duendeVerde);
+            Confronto.Confrontar(mimico, fenix);
+            Confronto.Confrontar(parasita, superSkrull);
+            Confronto.Confrontar(parasita, superman);
+            //se eu colocar dois mimicos para lutarem sem poderes, da m.
         }
     }
 }
