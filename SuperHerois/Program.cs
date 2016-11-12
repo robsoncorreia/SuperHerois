@@ -90,6 +90,8 @@ namespace SuperHerois
             //mimico.ExibirPoderes();
             //superbizarro.Pe -= 61;
             //superbizarro.Atacar(homemAranha);
+            
+            //BATALHAS
             Confronto.Confrontar(homemAranha, doutorOctopus);
             Confronto.Confrontar(fenix, superman);
             Confronto.Confrontar(doutorOctopus, duendeVerde);
